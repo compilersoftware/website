@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Revelados - Spectrum - Compiler Software</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Webfonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic|Audiowide" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/compiler.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg-revelados">
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PV8MXH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PV8MXH');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="/img/logo.png" height="35" alt="Compiler Software">
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Spectrum <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/spectrum-another-brick-on-the-wall-2.html">Another Brick On The Wall 2</a></li>
+                            <li><a href="/spectrum-pack-ferpecto.html">Pack Ferpecto</a></li>
+                            <li class="active"><a href="/spectrum-revelados.html">Revelados</a></li>
+                            <li><a href="/spectrum-sokoban.html">Sokoban</a></li>
+                            <li><a href="/spectrum-zx-columns.html">ZX Columns</a></li>
+                            <li><a href="/spectrum-zx-mines.html">ZX Mines</a></li>
+                            <li><a href="/spectrum-zx-mines-2.html">ZX Mines 2</a></li>
+                            <li><a href="/spectrum-zx-poker.html">ZX Poker</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Remakes <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/remakes-babaliba.html">Babaliba</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/notas-de-prensa.html">Prensa</a></li>
+                    <li><a href="/actualizaciones.html">Actualizaciones</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container main">
+
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="page-title">Revelados</h1>
+            </div>
+        </div>
+
+        <div class="row description">
+            <div class="col-xs-12">
+                <div class="pull-right col-sm-3 col-xs-6">
+                    <p><img src="/img/covers/revelados.jpg" class="img-responsive" alt="Revelados"></p>
+                    <p><button class="btn btn-block btn-primary hidden-xs btn-playonline" data-toggle="modal" data-target="#js-emulator" data-game="revelados" data-title="Revelados">Juega online</button></p>
+                </div>
+                <p>'Revelados' es un blog portado al Spectrum. Basado en los microrrelatos de <a href="http://eximeno.com/">Santiago Eximeno</a>, se ha traslado la contundencia de unas pocas palabras al ordenador más significativo de la década de los ochenta.</p>
+                <p>Poco más hay que decir sobre el programa, sólo queda leer los trece microrrelatos seleccionados y dejar volar la imaginación alrededor de las oscuras palabras que Santiago plasma sobre papel virtual y, ahora, sobre las pantallas de nuestros Spectrums.</p>
+            </div>
+        </div>
+
+        <div class="row screenshots">
+            <div class="col-xs-12">
+                <h2 class="section-heading">Capturas de pantalla</h2>
+            </div>
+            <div class="col-sm-4">
+                <p><img src="/img/screens/01-Revelados.png" class="img-responsive center-block" alt="Revelados pantalla #1"></p>
+            </div>
+            <div class="col-sm-4">
+                <p><img src="/img/screens/02-Revelados.png" class="img-responsive center-block" alt="Revelados pantalla #2"></p>
+            </div>
+        </div>
+
+        <div class="row downloads">
+            <div class="col-xs-12">
+                <h2 class="section-heading">Descargas</h2>
+                <ul>
+                    <li><a href="files/games/Revelados.rar">Programa en formato DSK y TZX con código fuente incluido</a>.</li>
+                    <li><a href="files/covers/Caratula_Revelados_NORMCASE_270206.jpg">Carátula para cinta de cassette</a>.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row staff">
+            <div class="col-xs-12">
+                <h2 class="section-heading">Créditos</h2>
+                <ul>
+                    <li>Concepto y relatos: Santiago Eximeno.</li>
+                    <li>Programa: Miguel A. García Prada.</li>
+                    <li>Testeo: Federico J. Álvarez Valero.</li>
+                    <li>Gráfico calaveras: Santiago Eximeno.</li>
+                    <li>Rótulo "Revelados": Compuesto en base a gráficos extraídos del programa "Nonamed". (C) Dinamic 1987.</li>
+                    <li>Juego de caracteres: Extraído del programa "Don Quijote". (c) Dinamic 1987.</li>
+                    <li>Carátula: Santiago Romero.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row comments">
+            <div class="col-xs-12">
+                <h2 class="section-heading">Dinos qué te parece</h2>
+                <div id="disqus_thread"></div>
+                <script>
+                    var disqus_config = function () {
+                        this.page.url = "http://compiler.speccy.org/spectrum-revelados.html";
+                        this.page.identifier = "spectrum-revelados";
+                    };
+                    (function() {  // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+
+                        s.src = '//compilersoftware.disqus.com/embed.js';
+
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Por favor, habilitar JavaScript para ver los <a href="https://disqus.com/?ref_noscript" rel="nofollow">comentarios ofrecidos por Disqus.</a></noscript>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 footerblock">
+                    <span class="copyright">Compiler Software 2003 - 2015</span>
+                </div>
+                <div class="col-sm-6 footerblock">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="condiciones-de-uso.html">Condiciones de uso</a></li>
+                        <li><a href="mailto:compiler.software@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="https://github.com/compilersoftware"><i class="fa fa-github"></i></a></li>
+                        <li><a href="en/spectrum-revelados.html" title="English version"><i class="flag flag-uk"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="js-emulator" tabindex="-1" role="dialog" aria-labelledby="Javascript Emulator" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="js-emulator-title"></h4>
+                </div>
+                <div class="modal-body">
+                    <iframe src="" width="660" height="500" frameborder="0" allowtransparency="true"></iframe>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="/js/compiler.min.js"></script>
+</body>
+</html>
