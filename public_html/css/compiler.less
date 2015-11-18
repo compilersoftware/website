@@ -1,0 +1,225 @@
+body {
+  padding: 50px 6px 0 6px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.7em;
+
+  .main {
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-main-title {
+    background-position: top center;
+  }
+
+  &.bg-abotw2 .main {
+    background-image: url("img/bg/abotw2.jpg");
+  }
+  &.bg-babaliba .main {
+    background-image: url("img/bg/babaliba.jpg");
+    background-position: bottom right;
+  }
+  &.bg-compiler .main {
+    background-image: url("img/bg/compiler.jpg");
+  }
+  &.bg-packferpecto .main {
+    background-image: url("img/bg/packferpecto.jpg");
+  }
+  &.bg-revelados .main {
+    background-image: url("img/bg/revelados.jpg");
+  }
+  &.bg-sokoban .main {
+    background-image: url("img/bg/sokoban.jpg");
+  }
+  &.bg-zxcolumns .main {
+    background-image: url("img/bg/zxcolumns.jpg");
+  }
+  &.bg-zxmines2 .main {
+    background-image: url("img/bg/zxmines2.jpg");
+  }
+  &.bg-zxmines .main {
+    background-image: url("img/bg/zxmines.jpg");
+  }
+  &.bg-zxpoker .main {
+    background-image: url("img/bg/zxpoker.jpg");
+  }
+}
+
+.main a {
+  color: #333;
+  text-decoration: none !important;
+  &:hover {
+    color: #000;
+    border-bottom: 1px solid #666;
+  }
+  &:visited {
+    color: #333;
+  }
+  border-bottom: 1px dotted #666;
+}
+
+footer a {
+  color: #333 !important;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.navbar-brand {
+  img { position: relative; top: -8px; }
+}
+
+.container {
+  min-width: 320px;
+  max-width: 800px;
+}
+
+.main {
+  min-height: 30em;
+}
+
+.compiler {
+  background: url("img/bg/compilerhead.gif") -1.5em center no-repeat;
+  padding: 3em 0;
+  margin-bottom: 1em;
+}
+
+.page-title {
+  font-family: 'Audiowide', cursive;
+  font-size: 270%;
+}
+
+.section-heading {
+  padding-bottom: 0.2em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #666;
+  font-variant: small-caps;
+  font-weight: 300;
+}
+
+.post {
+  padding: 0 10px 0.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px dotted #ccc;
+
+  .post-meta {
+    font-size: 80%;
+    color: #666;
+  }
+}
+
+footer {
+  min-height: 50px;
+  margin-top: 20px;
+  padding: 15px 0;
+  background-color: #f8f8f8;
+  border-top: 1px solid #e7e7e7;
+  .copyright {
+    text-align: left;
+  }
+  .social-buttons {
+    text-align: center;
+  }
+  .quicklinks {
+    text-align: right;
+  }
+}
+
+.navbar-default {
+  background-color: #333;
+  .navbar-nav > li > a {
+    color: #ddd;
+    &:active, &:link, &:visited {
+      color: #ddd;
+    }
+    &:hover {
+      color: #ffff00;
+    }
+  }
+}
+
+#navbar .active > a {
+  color: #ddd;
+  &:hover {
+    color: #ddd;
+  }
+  background-color: #319b1d;
+}
+
+.modal-dialog {
+  width: 690px;
+  height: 530px;
+}
+
+.team-member {
+  .social-buttons {
+    margin-left: 0.5em;
+    font-size: 200%;
+    a {
+      border: 0;
+    }
+    .fa-twitter {
+      color: #4099ff;
+    }
+  }
+}
+
+.btn-playonline {
+    border-color: #0dcf00 !important;
+    background-color: #0dcf00 !important;
+  &:hover {
+    border-color: #319b1d !important;
+    background-color: #319b1d !important;
+  }
+}
+
+.flag {
+  width: 23px;
+  height: 16px;
+  display: inline-block;
+  background-position: top left;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  top: 5px;
+  vertical-align: top;
+  &.flag-uk {
+    background-image: url(img/flags/uk.png);
+  }
+  &.flag-es {
+    background-image: url(img/flags/es.png);
+  }
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 200%;
+  }
+  .footerblock {
+    text-align: center;
+    .quicklinks {
+      float: none;
+      text-align: center;
+    }
+  }
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  /* Retina-specific stuff here */
+  .flag {
+    &.flag-uk {
+      background-image: url(img2x/flags/uk.png);
+      background-size: 23px 16px;
+    }
+    &.flag-es {
+      background-image: url(img2x/flags/es.png);
+      background-size: 23px 16px;
+    }
+  }
+}
+
+
+
