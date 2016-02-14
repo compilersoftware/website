@@ -3,4 +3,4 @@ Disallow: /jsemu.php
 Disallow: /files/
 Disallow: /Sokoban/
 
-Sitemap: http://compiler.speccy.org/sitemap.xml
+Sitemap: https://compiler.speccy.org/sitemap.xml
