@@ -1,3 +1,7 @@
-#Compiler Sofware Website
+# Compiler Software Website
 
-Inspiration: http://startbootstrap.com/
+https://compiler.speccy.org/
+
+## Inspiration
+
+http://startbootstrap.com/
