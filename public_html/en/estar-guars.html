@@ -141,6 +141,11 @@
                     <li><i class="fa fa-apple"></i> <a href="../files/games/StarWarsMAC.app.zip">Estar Guars Mac OSX Intel version</a></li>
                     <li><i class="fa fa-github"></i> <a href="https://github.com/compilersoftware/estar-guars">Source code at Github</a></li>
                 </ul>
+
+                <div class="hidden-xs">
+                    <button class="btn btn-block btn-primary hidden-xs btn-playonline" data-toggle="modal" data-target="#js-emulator" data-game="estar_guars" data-title="Estar Guars">Push to play Estar Guars</button>
+                    <p>This version may not be compatible with some browsers</p>
+                </div>
             </div>
         </div>
 
@@ -219,6 +224,24 @@
         </div>
     </footer>
 
+    <!-- Modal -->
+    <div class="modal fade" id="js-emulator" tabindex="-1" role="dialog" aria-labelledby="Javascript Emulator" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="js-emulator-title"></h4>
+                </div>
+                <div class="modal-body">
+                    <iframe src="" width="660" height="500" frameborder="0" allowtransparency="true"></iframe>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -229,7 +252,7 @@
 
     <script type="text/javascript" src="//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js" data-shr-siteid="ff268b948884181b8d6707bca8f37271" data-cfasync="false" async></script>
 
-    <script src="../js/compiler.min.js"></script>
+    <script src="../js/compiler.min.js?20160929"></script>
 
 </body>
 </html>
