@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>ZX Poker para Spectrum - Compiler Software</title>
+    <title>OPP! for ZX Spectrum - Compiler Software</title>
 
-    <link rel="alternate" hreflang="en" href="en/spectrum-zx-poker.html" />
-
-    <meta property="og:title" content="ZX Poker para ZX Spectrum - Compiler Software">
+    <meta property="og:title" content="OPP! for ZX Spectrum - Compiler Software">
     <meta property="og:site_name" content="Compiler Software">
-    <meta property="og:url" content="https://compiler.speccy.org/spectrum-zx-poker.html">
-    <meta property="og:description" content="ZX Poker es un juego de cartas basado en el Solitaire Poker, implementado para la plataforma Sinclair ZX Spectrum. El jugador empieza el juego con una cantidad de dinero y debe conseguir ganar todo el dinero posible (o, al menos, no perderlo todo) realizando apuestas en un Poker Solitario.">
+    <meta property="og:url" content="https://compiler.speccy.org/en/spectrum-opp.html">
+    <meta property="og:description" content="OPP! is a puzzle game coded in z80 assembler for Retromanía 2016 development competition.">
     <meta property="og:type" content="product">
-    <meta property="og:locale" content="es_ES">
-    <meta property="og:locale:alternate" content="en_US">
-    <meta property="og:image" content="https://compiler.speccy.org/img/covers/zxpoker.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:image" content="https://compiler.speccy.org/img/screens/opp-scr3.png">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="ZX Poker para ZX Spectrum - Compiler Software">
-    <meta name="twitter:description" content="ZX Poker es un juego de cartas basado en el Solitaire Poker, implementado para la plataforma Sinclair ZX Spectrum. El jugador empieza el juego con una cantidad de dinero y debe conseguir ganar todo el dinero posible (o, al menos, no perderlo todo) realizando apuestas en un Poker Solitario.">
-    <meta name="twitter:image" content="https://compiler.speccy.org/img/covers/zxpoker.jpg">
+    <meta name="twitter:title" content="OPP! for ZX Spectrum - Compiler Software">
+    <meta name="twitter:description" content="OPP! is a puzzle game coded in z80 assembler for Retromanía 2016 development competition.">
+    <meta name="twitter:image" content="https://compiler.speccy.org/img/screens/opp-scr3.png">
+
+    <link rel="alternate" hreflang="es" href="../spectrum-opp.html" />
 
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
@@ -34,7 +34,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic|Audiowide" rel="stylesheet" type="text/css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/compiler.min.css?20151120">
+    <link rel="stylesheet" href="../css/compiler.min.css?20151120">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,7 +43,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="bg-zxpoker">
+<body class="bg-opp">
 
     <!-- Google Tag Manager -->
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PV8MXH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -61,7 +61,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    <img src="css/img/bar-logo.png" srcset="css/img2x/bar-logo.png" width="82" height="35" alt="Compiler Software">
+                    <img src="../css/img/bar-logo.png" srcset="../css/img2x/bar-logo.png" width="82" height="35" alt="Compiler Software">
                 </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -70,14 +70,14 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Spectrum <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="spectrum-another-brick-on-the-wall-2.html">Another Brick On The Wall 2</a></li>
-                            <li><a href="spectrum-opp.html">OPP!</a></li>
+                            <li class="active"><a href="spectrum-opp.html">OPP!</a></li>
                             <li><a href="spectrum-pack-ferpecto.html">Pack Ferpecto</a></li>
                             <li><a href="spectrum-revelados.html">Revelados</a></li>
                             <li><a href="spectrum-sokoban.html">Sokoban</a></li>
                             <li><a href="spectrum-zx-columns.html">ZX Columns</a></li>
                             <li><a href="spectrum-zx-mines.html">ZX Mines</a></li>
                             <li><a href="spectrum-zx-mines-2.html">ZX Mines 2</a></li>
-                            <li class="active"><a href="spectrum-zx-poker.html">ZX Poker</a></li>
+                            <li><a href="spectrum-zx-poker.html">ZX Poker</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -87,8 +87,8 @@
                             <li><a href="estar-guars.html">Estar Guars</a></li>
                         </ul>
                     </li>
-                    <li><a href="notas-de-prensa.html">Prensa</a></li>
-                    <li><a href="actualizaciones.html">Actualizaciones</a></li>
+                    <li><a href="press-releases.html">Press</a></li>
+                    <li><a href="updates.html">Updates</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -97,83 +97,79 @@
     <div class="container main">
 
         <div class="row">
-            <div class="col-md-12">
-                <h1 class="page-title">ZX Poker</h1>
+            <div class="col-xs-12">
+                <h1 class="page-title">OPP!</h1>
             </div>
         </div>
 
         <div class="row description">
             <div class="col-xs-12">
-                <div class="pull-right col-sm-3 col-xs-6">
-                    <p><img src="img/covers/zxpoker.jpg" class="img-responsive" alt="ZX Poker cassette cover"></p>
-                    <p><button class="btn btn-block btn-primary hidden-xs btn-playonline" data-toggle="modal" data-target="#js-emulator" data-game="zxpoker" data-title="ZX Poker">Juega online</button></p>
-                </div>
-                <p>ZX Poker es un juego de cartas basado en el Solitaire Poker, implementado para la plataforma Sinclair ZX Spectrum. El jugador empieza el juego con una cantidad de dinero y debe conseguir ganar todo el dinero posible (o, al menos, no perderlo todo) realizando apuestas en un Poker Solitario. El juego incluye instrucciones en pantalla y permite cambiar el idioma entre inglés y español.</p>
-                <p>Las reglas del Poker Solitario son muy sencillas: el jugador apuesta (antes de ver sus cartas) una cantidad de dinero (de 1 a 5$). Tras apostar, se le muestran sus 5 cartas y se le da una oportunidad de descartarse de aquéllas que no le interesan. Después del descarte, si el jugador tiene alguna mano de poker (pareja de figuras, trío, dobles parejas, poker, escalera, full, etc.) ganará la mano. Cada jugada otorga una cantidad de dinero que se multiplica por lo que el jugador ha apostado.</p>
-                <p>Así, una pareja de figuras dará 1$ si el jugador sólo apuesta 1$. Unas dobles parejas darán 2$ si se apuesta 1$, pero darán 6$ si se han apostado 3$ (las dobles parejas valen 2$, que se multiplican por los 3$ que hemos apostado). El apostar más de 1$ en cada jugada es arriesgado, pues si perdemos nuestro dinero disminuirá rápidamente.</p>
-                <p>Por último, cada vez que el jugador gana algo en una mano, la máquina le permite jugárselo a doble o nada: al jugador se le muestra una carta y se le da a elegir para destapar alguna de las otras 4. Si la carta que destapa el jugador es mayor que la de la CPU, doblará el dinero ganado. Si es menor, lo perderá, y si es igual, se repetirá el intento. El jugador puede hacer tantos dobles o nada como quiera, con el riesgo de perder todo lo acumulado. El objetivo del juego es hacer saltar la banca (ganando 10000$), o bien retirarse (hay una tecla para ello, antes de cada mano) con suficiente dinero habiendo pasado un rato agradable.</p>
+                <p>This game was coded to enter into <a href="http://www.retroaccion.org/concurso-de-programacion-de-un-videojuego-en-ensamblador-para-el-zilog-z80">Retromanía 2016's coding competition</a> and ranked in second place.</p>
+                <p>The aim of the game is to put same color tokens together. You can pick them from the upper part with a little platform, which can hold up to three different ones of the same color.</p>
+                <p>Once you have held any token (between 1 and 3), you can shoot back them to the upper side.</p>
+                <p>If you shoot only one, it will keep there. Two or more will be destroyed. Also, if they collide with more adjacent tokens of the same color in the same column, all of them will be destroyed.</p>
+                <p>Tokens will come down periodically, at a faster pace as time runs, and new random color tokens will be added to the upper line. If one of them enters into the "safe zone" (below the line), you die.</p>
+                <p>Controls are "O" and "P" to move your platform left and right. "Space" to retrieve or shoot tokens. "R" gets you back to the menu.</p>
+                <p>Any destroyed token scores points</p>
+                <p>As this game was made in only a few days, just to be ready to the competition, only "attack mode" is available. And we are also sure that there may be bugs in the wild.</p>
+                <p>Miguel, the maker, comments:</p>
+                <blockquote>
+                    <p>This game is based in some other one I saw in a Flash games site; I don't remember its name and it hadn't exactly the same rules.</p>
+                    <p>It was coded in about a week; It uses only 2KB of memory and it uses attributes only for the display. Neither graphics nor any ZX Spectrum not-native trick.</p>
+                </blockquote>
+                <p class="col-sm-3"><button class="btn btn-block btn-primary hidden-xs btn-playonline" data-toggle="modal" data-target="#js-emulator" data-game="opp" data-title="OPP!">Play online</button></p>
             </div>
         </div>
 
         <div class="row screenshots">
             <div class="col-xs-12">
-                <h2 class="section-heading">Capturas de pantalla</h2>
+                <h2 class="section-heading">Screenshots</h2>
             </div>
             <div class="col-sm-4">
-                <p><img src="img/screens/zxpoker-scr1.png" class="img-responsive center-block" alt="ZX Poker pantalla de carga"></p>
+                <p><img src="../img/screens/opp-scr1.png" class="img-responsive center-block" alt="OPP! screenshot #1"></p>
             </div>
             <div class="col-sm-4">
-                <p><img src="img/screens/zxpoker-scr2.png" class="img-responsive center-block" alt="ZX Poker pantalla de juego #1"></p>
+                <p><img src="../img/screens/opp-scr2.png" class="img-responsive center-block" alt="OPP! screenshot #2"></p>
             </div>
             <div class="col-sm-4">
-                <p><img src="img/screens/zxpoker-scr3.png" class="img-responsive center-block" alt="ZX Poker pantalla de juego #2"></p>
+                <p><img src="../img/screens/opp-scr3.png" class="img-responsive center-block" alt="OPP! screenshot #3"></p>
             </div>
         </div>
 
         <div class="row downloads">
             <div class="col-xs-12">
-                <h2 class="section-heading">Descargas</h2>
+                <h2 class="section-heading">Downloads</h2>
                 <ul>
-                    <li><a href="files/games/zxpoker-1.0.zip">Juego completo con carátulas.</a></li>
-                    <li><a href="files/sources/zxpoker-sources.zip">Codigo fuente completo.</a></li>
+                    <li><a href="../files/games/opp.zip">Game with source code.</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="row staff">
             <div class="col-xs-12">
-                <h2 class="section-heading">Créditos</h2>
+                <h2 class="section-heading">Credits</h2>
                 <ul>
-                    <li>Programa y gráficos: Santiago Romero (NoP).</li>
-                    <li>Beta-testers:
-                        <ul>
-                            <li>Federico J. Álvarez Valero (falvarez).</li>
-                            <li>Miguel A. García Prada (devil_net).</li>
-                            <li>Pablo Suau (Siew).</li>
-                            <li>Juan Pablo López-Grao.</li>
-                            <li>Jose Manuel Claros.</li>
-                            <li>Pedro J. De Celis Benito (Pedrete).</li>
-                        </ul>
-                    </li>
+                    <li>Miguel A. García Prada (devil_net).</li>
                 </ul>
             </div>
         </div>
 
         <div class="row share">
             <div class="col-xs-12">
-                <h2 class="section-heading">Compártelo</h2>
+                <h2 class="section-heading">Spread the word</h2>
                 <div class="shareaholic-canvas" data-app="share_buttons" data-app-id="21598843"></div>
             </div>
         </div>
 
         <div class="row comments">
             <div class="col-xs-12">
-                <h2 class="section-heading">Dinos qué te parece</h2>
+                <h2 class="section-heading">Your opinion</h2>
                 <div id="disqus_thread"></div>
                 <script>
                     var disqus_config = function () {
-                        this.page.url = "https://compiler.speccy.org/spectrum-zx-poker.html";
-                        this.page.identifier = "spectrum-zx-poker";
+                        this.page.url = "https://compiler.speccy.org/en/spectrum-opp.html";
+                        this.page.identifier = "en/spectrum-opp";
+                        this.language = "en";
                     };
                     (function() {  // DON'T EDIT BELOW THIS LINE
                         var d = document, s = d.createElement('script');
@@ -184,7 +180,7 @@
                         (d.head || d.body).appendChild(s);
                     })();
                 </script>
-                <noscript>Por favor, habilitar JavaScript para ver los <a href="https://disqus.com/?ref_noscript" rel="nofollow">comentarios ofrecidos por Disqus.</a></noscript>
+                <noscript>Please enable JavaScript to see the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments offered by Disqus.</a></noscript>
             </div>
         </div>
 
@@ -198,10 +194,10 @@
                 </div>
                 <div class="col-sm-6 footerblock">
                     <ul class="list-inline quicklinks">
-                        <li><a href="condiciones-de-uso.html">Condiciones de uso</a></li>
+                        <li><a href="terms-of-use.html">Terms of use</a></li>
                         <li><a href="mailto:compiler.software@gmail.com"><i class="fa fa-envelope"></i></a></li>
                         <li><a href="https://github.com/compilersoftware"><i class="fa fa-github"></i></a></li>
-                        <li><a href="en/spectrum-zx-poker.html" title="English version"><i class="flag flag-uk"></i></a></li>
+                        <li><a href="../spectrum-opp.html" title="Versión en español"><i class="flag flag-es"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -236,6 +232,6 @@
 
     <script type="text/javascript" src="//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js" data-shr-siteid="ff268b948884181b8d6707bca8f37271" data-cfasync="false" async></script>
 
-    <script src="js/compiler.min.js?20160929"></script>
+    <script src="../js/compiler.min.js?20160929"></script>
 </body>
 </html>
