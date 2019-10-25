@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>OPP! para ZX Spectrum - Compiler Software</title>
+    <title>Dead End_ para Commodore 64 - Compiler Software</title>
 
-    <link rel="alternate" hreflang="en" href="en/spectrum-opp.html" />
+    <link rel="alternate" hreflang="en" href="en/c64-dead-end_.html" />
 
-    <meta property="og:title" content="OPP! para ZX Spectrum - Compiler Software">
+    <meta property="og:title" content="Dead End_ para Commodore 64 - Compiler Software">
     <meta property="og:site_name" content="Compiler Software">
-    <meta property="og:url" content="https://compiler.speccy.org/spectrum-opp.html">
-    <meta property="og:description" content="OPP! es un puzzle desarrollado íntegramente en ensamblador de Z80 para el concurso de programación de Retromanía 2016.">
+    <meta property="og:url" content="https://compiler.speccy.org/c64-dead-end_.html">
+    <meta property="og:description" content="Dead End_ es un puzle basado en otro del mismo título para ordenadores Macintosh, portado al BASIC del Commodore 64 a partir del que presentamos al concurso de BASIC 2020 de Bytemaniacos.">
     <meta property="og:type" content="product">
     <meta property="og:locale" content="es_ES">
     <meta property="og:locale:alternate" content="en_US">
-    <meta property="og:image" content="https://compiler.speccy.org/img/screens/opp-scr3.png">
+    <meta property="og:image" content="https://compiler.speccy.org/img/screens/c64-dead-end_-scr2.jpg">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="OPP! para ZX Spectrum - Compiler Software">
-    <meta name="twitter:description" content="OPP! es un puzzle desarrollado íntegramente en ensamblador de Z80 para el concurso de programación de Retromanía 2016.">
-    <meta name="twitter:image" content="https://compiler.speccy.org/img/screens/opp-scr3.png">
+    <meta name="twitter:title" content="Dead End_ para Commodore 64 - Compiler Software">
+    <meta name="twitter:description" content="Dead End_ es un puzle basado en otro del mismo título para ordenadores Macintosh, portado al BASIC del Commodore 64 a partir del que presentamos al concurso de BASIC 2020 de Bytemaniacos.">
+    <meta name="twitter:image" content="https://compiler.speccy.org/img/screens/c64-dead-end_-scr2.jpg">
 
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
@@ -43,7 +43,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="bg-opp">
+<body class="bg-dead-end_">
 
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PV8MXH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -71,7 +71,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="spectrum-another-brick-on-the-wall-2.html">Another Brick On The Wall 2</a></li>
                         <li><a href="spectrum-dead-end_.html">Dead End_</a></li>
-                        <li class="active"><a href="spectrum-opp.html">OPP!</a></li>
+                        <li><a href="spectrum-opp.html">OPP!</a></li>
                         <li><a href="spectrum-pack-ferpecto.html">Pack Ferpecto</a></li>
                         <li><a href="spectrum-revelados.html">Revelados</a></li>
                         <li><a href="spectrum-sokoban.html">Sokoban</a></li>
@@ -96,7 +96,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">C64 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="c64-dead-end_.html">Dead End_</a></li>
+                        <li class="active"><a href="c64-dead-end_.html">Dead End_</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -117,26 +117,29 @@
 
     <div class="row">
         <div class="col-xs-12">
-            <h1 class="page-title">OPP!</h1>
+            <h1 class="page-title">Dead End_</h1>
         </div>
     </div>
 
     <div class="row description">
         <div class="col-xs-12">
-            <p>Este juego se desarrolló para participar en el <a href="http://www.retroaccion.org/concurso-de-programacion-de-un-videojuego-en-ensamblador-para-el-zilog-z80">concurso de programación de Retromanía 2016</a>, quedando en segunda posición.</p>
-            <p>El objetivo del juego es juntar piezas del mismo color para ir eliminándolas. Con la pala se recogen las fichas de la parte superior, pudiendo apilar hasta tres del mismo color.</p>
-            <p>Una vez con fichas (entre 1 y 3) en la pala, se disparan contra la parte superior.</p>
-            <p>Si sólo se dispara una, no se destruye y se queda en el lugar al que se lanza. Si son dos o más se destruyen. Y si colisionan con piezas del mismo color, se destruyen tantas como haya en la misma columna y sean colindantes.</p>
-            <p>Las fichas van descendiendo por el panel, cada vez más rápido según avanza el tiempo, y se crea una línea de fichas aleatorias en la parte superior. Si una sola llega a la zona segura (marcada por líneas), mueres.</p>
-            <p>Los controles en tiempo de juego son “O” y “P” para dirigir la pala a izquierda y derecha. “Espacio” para recoger o lanzar fichas. Con “R” se salé al menú.</p>
-            <p>Por cada ficha destruida se incrementa el marcador.</p>
-            <p>Debido a la premura para realizar el juego, este solo dispone de un modo "attack" hasta que las fichas llegan abajo. Y seguro que tiene algún que otro bug.</p>
-            <p>Miguel, su creador, comenta:</p>
-            <blockquote>
-                <p>"El juego está basado en algo que vi en una página de juegos en Flash, y no recuerdo el nombre ni era exactamente igual."</p>
-                <p>"Se programó en una semana aproximadamente; utiliza 2KB de memoria y no se emplea ningún gráfico ni recursos que no vengan "de serie" en el ZX Spectrum, sólo atributos."</p>
-            </blockquote>
-            <p class="col-sm-12"><button class="btn btn-block btn-primary hidden-xs btn-playonline" data-toggle="modal" data-target="#js-emulator" data-game="opp" data-title="OPP!">Juega online</button></p>
+            <h2>El juego</h2>
+            <p>En Dead End_ tu objetivo es llegar a la salida de cada habitación. Desgraciadamente, están plagadas de cajas que obstaculizan el paso. Para moverlas y abrirte paso a través de ellas se tienen que cumplir dos requisitos: que delante de la caja que quieras empujar tengas hueco y espacio detrás tuyo para coger carrerilla y arremeter contra ellas.</p>
+            <p>Los movimientos y el tiempo que tienes son ilimitados. Pero cuidado con quedarte encerrado sin salida, no podrás volver atrás y tendrás que empezar el nivel de nuevo.</p>
+            <p>El juego consta de diez niveles diferentes, cada uno con una dificultad diferente. Los puedes jugar sin orden alguno, seleccionando en el menú desde que nivel quieres comenzar. Aunque te recomiendo empezar por el primero.</p>
+            <p>Cuando finalices el nivel 10, el juego regresará al nivel 1.</p>
+            <h2>Controles</h2>
+            <p>Para mover a nuestro alter ego en la pantalla del Commodore 64, utiliza las siguientes teclas:</p>
+            <p>
+                O - Izquierda<br>
+                P - Derecha<br>
+                Q - Arriba<br>
+                A - Abajo<br>
+                <br>
+                R - Reinicia el nivel, por si te has quedado atrancado.<br>
+                Y - Regresa al menú del juego.<br>
+            </p>
+            <p>Ninguna de estas dos opciones pide confirmación, así que ten cuidado.</p>
         </div>
     </div>
 
@@ -145,13 +148,13 @@
             <h2 class="section-heading">Capturas de pantalla</h2>
         </div>
         <div class="col-sm-4">
-            <p><img src="img/screens/opp-scr1.png" class="img-responsive center-block" alt="OPP! pantalla #1"></p>
+            <p><img src="img/screens/c64-dead-end_-scr1.jpg" class="img-responsive center-block" alt="Dead End_ pantalla #1"></p>
         </div>
         <div class="col-sm-4">
-            <p><img src="img/screens/opp-scr2.png" class="img-responsive center-block" alt="OPP! pantalla #2"></p>
+            <p><img src="img/screens/c64-dead-end_-scr2.jpg" class="img-responsive center-block" alt="Dead End_ pantalla #2"></p>
         </div>
         <div class="col-sm-4">
-            <p><img src="img/screens/opp-scr3.png" class="img-responsive center-block" alt="OPP! pantalla #3"></p>
+            <p><img src="img/screens/c64-dead-end_-scr3.jpg" class="img-responsive center-block" alt="Dead End_ pantalla #3"></p>
         </div>
     </div>
 
@@ -159,7 +162,7 @@
         <div class="col-xs-12">
             <h2 class="section-heading">Descargas</h2>
             <ul>
-                <li><a href="files/games/opp.zip">Juego completo con código fuente incluido.</a></li>
+                <li><a href="files/games/c64-deadend.zip">Juego completo con código fuente incluido.</a></li>
             </ul>
         </div>
     </div>
@@ -167,8 +170,11 @@
     <div class="row staff">
         <div class="col-xs-12">
             <h2 class="section-heading">Créditos</h2>
+            <p>Dead End_ está basado en <a href="https://www.macintoshrepository.org/5890-deadend">Dead End</a>, el juego del mismo nombre (pero sin el guión bajo) creado para Macintosh por <a href="https://www.macintoshrepository.org/software_search.php?autid=964&p=1">Wolfgang Thaller</a> entre los años 1993 y 1998. Esta versión para Commodore 64 se ha portado a partir de la de <a href="spectrum-dead-end_.html">ZX Spectrum 48K</a>, que se presentó al <a href="https://www.bytemaniacos.com/?page_id=3639">Concurso de BASIC 2020 de Bytemaniacos</a>.</p>
             <ul>
-                <li>Miguel A. García Prada (devil_net).</li>
+                <li>Programa: Miguel G. Prada (devil_net)</li>
+                <li>Gráficos y diseño: Javier Vispe (zyloj)</li>
+                <li>Conversión a Commodore 64: Fede J. Álvarez Valero (falvarez)</li>
             </ul>
         </div>
     </div>
@@ -186,8 +192,8 @@
             <div id="disqus_thread"></div>
             <script>
                 var disqus_config = function () {
-                    this.page.url = "https://compiler.speccy.org/spectrum-opp.html";
-                    this.page.identifier = "spectrum-opp";
+                    this.page.url = "https://compiler.speccy.org/c64-dead-end_.html";
+                    this.page.identifier = "c64-dead-end_";
                 };
                 (function() {  // DON'T EDIT BELOW THIS LINE
                     var d = document, s = d.createElement('script');
@@ -216,7 +222,7 @@
                     <li><a href="mailto:compiler.software@gmail.com"><i class="fa fa-envelope"></i></a></li>
                     <li><a href="https://twitter.com/compilersoft"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="https://github.com/compilersoftware"><i class="fa fa-github"></i></a></li>
-                    <li><a href="en/spectrum-opp.html" title="English version"><i class="flag flag-uk"></i></a></li>
+                    <li><a href="en/c64-dead-end_.html" title="English version"><i class="flag flag-uk"></i></a></li>
                 </ul>
             </div>
         </div>
