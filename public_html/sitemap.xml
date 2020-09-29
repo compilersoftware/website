@@ -64,11 +64,16 @@
   <lastmod>2019-09-24T22:50:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-  <url>
-    <loc>https://compiler.speccy.org/msx-dead-end_.html</loc>
-    <lastmod>2019-09-24T22:50:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
+<url>
+  <loc>https://compiler.speccy.org/c64-dead-end_.html</loc>
+  <lastmod>2019-09-24T22:50:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://compiler.speccy.org/msx-dead-end_.html</loc>
+  <lastmod>2019-09-24T22:50:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 <url>
   <loc>https://compiler.speccy.org/remakes-babaliba.html</loc>
   <lastmod>2015-11-18T22:38:08+00:00</lastmod>
@@ -77,6 +82,11 @@
 <url>
   <loc>https://compiler.speccy.org/estar-guars.html</loc>
   <lastmod>2015-11-18T22:38:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://compiler.speccy.org/recursos.html</loc>
+  <lastmod>2020-09-29T16:07:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -151,6 +161,11 @@
 </url>
 <url>
   <loc>https://compiler.speccy.org/en/cpc-dead-end_.html</loc>
+  <lastmod>2019-09-24T22:50:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://compiler.speccy.org/en/c64-dead-end_.html</loc>
   <lastmod>2019-09-24T22:50:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
