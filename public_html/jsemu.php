@@ -3,6 +3,7 @@ switch ($_GET['game'])
 {
     case 'abotw2_esp' : $game = 'abotw2.es.tap'; $title="Another Brick On The Wall 2"; break;
     case 'abotw2_eng' : $game = 'abotw2.en.tap'; $title="Another Brick On The Wall 2"; break;
+    case 'cardinal-chains' : $game = 'cardinal-chains.tap'; $title="Cardinal Chains"; break;
     case 'dead-end_' : $game = 'dead-end_.tap'; $title="Dead End_"; break;
     case 'opp' : $game = 'opp.tap'; $title="OPP!"; break;
     case 'revelados' : $game = 'revelados.tzx'; $title="Revelados"; break;

@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>OPP! for ZX Spectrum - Compiler Software</title>
+    <title>Cardinal Chains for ZX Spectrum - Compiler Software</title>
 
-    <meta property="og:title" content="OPP! for ZX Spectrum - Compiler Software">
+    <meta property="og:title" content="Cardinal Chains for ZX Spectrum - Compiler Software">
     <meta property="og:site_name" content="Compiler Software">
-    <meta property="og:url" content="https://compiler.speccy.org/en/spectrum-opp.html">
-    <meta property="og:description" content="OPP! is a puzzle game coded in z80 assembler for Retromanía 2016 development competition.">
+    <meta property="og:url" content="https://compiler.speccy.org/en/spectrum-cardinal-chains.html">
+    <meta property="og:description" content="Cardinal Chains es un puzle minimalista, y es una versión libre del juego homónimo creado por Daniel nora para ordenadores actuales. Cardinal Chains is a minimalistic puzzle, and also a free port for the homonym game created by Daniel Nora for current computers.">
     <meta property="og:type" content="product">
     <meta property="og:locale" content="en_US">
     <meta property="og:locale:alternate" content="es_ES">
-    <meta property="og:image" content="https://compiler.speccy.org/img/screens/opp-scr3.png">
+    <meta property="og:image" content="https://compiler.speccy.org/img/screens/cardinal-chains-scr2.png">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="OPP! for ZX Spectrum - Compiler Software">
-    <meta name="twitter:description" content="OPP! is a puzzle game coded in z80 assembler for Retromanía 2016 development competition.">
-    <meta name="twitter:image" content="https://compiler.speccy.org/img/screens/opp-scr3.png">
+    <meta name="twitter:title" content="Cardinal Chains for ZX Spectrum - Compiler Software">
+    <meta name="twitter:description" content="Cardinal Chains es un puzle minimalista, y es una versión libre del juego homónimo creado por Daniel nora para ordenadores actuales. Cardinal Chains is a minimalistic puzzle, and also a free port for the homonym game created by Daniel Nora for current computers.">
+    <meta name="twitter:image" content="https://compiler.speccy.org/img/screens/cardinal-chains-scr2.png">
 
-    <link rel="alternate" hreflang="es" href="../spectrum-opp.html" />
+    <link rel="alternate" hreflang="es" href="../spectrum-cardinal-chains.html" />
 
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
@@ -43,7 +43,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="bg-opp">
+<body class="bg-cardinal-chains">
 
     <!-- Google Tag Manager -->
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PV8MXH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -71,8 +71,8 @@
                         <ul class="dropdown-menu">
                             <li><a href="spectrum-another-brick-on-the-wall-2.html">Another Brick On The Wall 2</a></li>
                             <li><a href="spectrum-cardinal-chains.html">Cardinal Chains</a></li>
-                            <li><a href="spectrum-dead-end_.html">Dead End_</a></li>
-                            <li class="active"><a href="spectrum-opp.html">OPP!</a></li>
+                            <li class="active"><a href="spectrum-dead-end_.html">Dead End_</a></li>
+                            <li><a href="spectrum-opp.html">OPP!</a></li>
                             <li><a href="spectrum-pack-ferpecto.html">Pack Ferpecto</a></li>
                             <li><a href="spectrum-revelados.html">Revelados</a></li>
                             <li><a href="spectrum-sokoban.html">Sokoban</a></li>
@@ -118,26 +118,29 @@
 
         <div class="row">
             <div class="col-xs-12">
-                <h1 class="page-title">OPP!</h1>
+                <h1 class="page-title">Cardinal Chains</h1>
             </div>
         </div>
 
         <div class="row description">
             <div class="col-xs-12">
-                <p>This game was coded to enter into <a href="http://www.retroaccion.org/concurso-de-programacion-de-un-videojuego-en-ensamblador-para-el-zilog-z80">Retromanía 2016's coding competition</a> and ranked in second place.</p>
-                <p>The aim of the game is to put same color tokens together. You can pick them from the upper part with a little platform, which can hold up to three different ones of the same color.</p>
-                <p>Once you have held any token (between 1 and 3), you can shoot back them to the upper side.</p>
-                <p>If you shoot only one, it will keep there. Two or more will be destroyed. Also, if they collide with more adjacent tokens of the same color in the same column, all of them will be destroyed.</p>
-                <p>Tokens will come down periodically, at a faster pace as time runs, and new random color tokens will be added to the upper line. If one of them enters into the "safe zone" (below the line), you die.</p>
-                <p>Controls are "O" and "P" to move your platform left and right. "Space" to retrieve or shoot tokens. "R" gets you back to the menu.</p>
-                <p>Any destroyed token scores points</p>
-                <p>As this game was made in only a few days, just to be ready to the competition, only "attack mode" is available. And we are also sure that there may be bugs in the wild.</p>
-                <p>Miguel, the maker, comments:</p>
-                <blockquote>
-                    <p>This game is based in some other one I saw in a Flash games site; I don't remember its name and it hadn't exactly the same rules.</p>
-                    <p>It was coded in about a week; It uses only 2KB of memory and it uses attributes only for the display. Neither graphics nor any ZX Spectrum not-native trick.</p>
-                </blockquote>
-                <p class="col-sm-3"><button class="btn btn-block btn-primary hidden-xs btn-playonline" data-toggle="modal" data-target="#js-emulator" data-game="opp" data-title="OPP!">Play online</button></p>
+                <h2>Game</h2>
+                <p>Cardinal Chains is a minimalistic puzzle in which you have to walk through every single cell of the board. The only rule is you can only move to a cell containing same or bigger number. You cannot go back.</p>
+                <p>The game has 313 different levels. It will only be a single starting point in the first ones, but as soon as you go further into the game, you will need to combine several of them in order to beat them.</p>
+                <h2>Controls</h2>
+                <p>Use following keys in order to move through the board:</p>
+                <p>
+                    O - Left<br>
+                    P - Right<br>
+                    Q - Up<br>
+                    A - Down<br>
+                    <br>
+                    N/M, K/L - Cycle through starting points, if any
+                    R - Restart level, in case you got stuck.<br>
+                    Y - Back to main menu.<br>
+                </p>
+                <p>None of these options ask for confirmation, so be careful.</p>
+                <p class="col-sm-12"><button class="btn btn-block btn-primary hidden-xs btn-playonline" data-toggle="modal" data-target="#js-emulator" data-game="cardinal-chains" data-title="Cardinal Chains">Play online (Spanish version)</button></p>
             </div>
         </div>
 
@@ -146,13 +149,13 @@
                 <h2 class="section-heading">Screenshots</h2>
             </div>
             <div class="col-sm-4">
-                <p><img src="../img/screens/opp-scr1.png" class="img-responsive center-block" alt="OPP! screenshot #1"></p>
+                <p><img src="../img/screens/cardinal-chains-scr1.png" class="img-responsive center-block" alt="Cardinal Chains screenshot #1"></p>
             </div>
             <div class="col-sm-4">
-                <p><img src="../img/screens/opp-scr2.png" class="img-responsive center-block" alt="OPP! screenshot #2"></p>
+                <p><img src="../img/screens/cardinal-chains-scr2.png" class="img-responsive center-block" alt="Cardinal Chains screenshot #2"></p>
             </div>
             <div class="col-sm-4">
-                <p><img src="../img/screens/opp-scr3.png" class="img-responsive center-block" alt="OPP! screenshot #3"></p>
+                <p><img src="../img/screens/cardinal-chains-scr3.png" class="img-responsive center-block" alt="Cardinal Chains screenshot #3"></p>
             </div>
         </div>
 
@@ -160,7 +163,7 @@
             <div class="col-xs-12">
                 <h2 class="section-heading">Downloads</h2>
                 <ul>
-                    <li><a href="../files/games/opp.zip">Game with source code.</a></li>
+                    <li><a href="../files/games/carsinalchains.zip">Game with source code.</a></li>
                 </ul>
             </div>
         </div>
@@ -168,8 +171,9 @@
         <div class="row staff">
             <div class="col-xs-12">
                 <h2 class="section-heading">Credits</h2>
+                <p>Cardinal Chains is as free port of the <a href="https://danijmn.itch.io/cardinalchains">homonym game</a> created by <a href="https://danijmn.itch.io/">Daniel Nora</a> for current computers. It has been developed using <a href="https://www.boriel.com/pages/the-zx-basic-compiler.html">Boriel's ZX BASIC Compiler</a> and it includes 313 levels from the original game.</p>
                 <ul>
-                    <li>Miguel A. García Prada (devil_net).</li>
+                    <li>Code: Miguel G. Prada (devil_net)</li>
                 </ul>
             </div>
         </div>
@@ -187,8 +191,8 @@
                 <div id="disqus_thread"></div>
                 <script>
                     var disqus_config = function () {
-                        this.page.url = "https://compiler.speccy.org/en/spectrum-opp.html";
-                        this.page.identifier = "en/spectrum-opp";
+                        this.page.url = "https://compiler.speccy.org/en/spectrum-cardinal-chains.html";
+                        this.page.identifier = "en/spectrum-cardinal-chains";
                         this.language = "en";
                     };
                     (function() {  // DON'T EDIT BELOW THIS LINE
@@ -218,7 +222,7 @@
                         <li><a href="mailto:compiler.software@gmail.com"><i class="fa fa-envelope"></i></a></li>
                         <li><a href="https://twitter.com/compilersoft"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://github.com/compilersoftware"><i class="fa fa-github"></i></a></li>
-                        <li><a href="../spectrum-opp.html" title="Versión en español"><i class="flag flag-es"></i></a></li>
+                        <li><a href="../spectrum-cardinal-chains.html" title="Versión en español"><i class="flag flag-es"></i></a></li>
                     </ul>
                 </div>
             </div>
