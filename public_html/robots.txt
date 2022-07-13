@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /jsemu.php
+Disallow: /jsemu.html
 Disallow: /files/
 Disallow: /Sokoban/
 

@@ -1,5 +1,5 @@
 $('.modal').on('shown.bs.modal', function(e) {
-    var url = '/jsemu.php?game=' + e.relatedTarget.dataset.game;
+    var url = '/jsemu.html?game=' + e.relatedTarget.dataset.game;
     var title = e.relatedTarget.dataset.title;
     if (e.relatedTarget.dataset.game == 'estar_guars') {
         url = '/EstarGuars/index.html';
