@@ -3,9 +3,8 @@ image: busybox
 pages:
   stage: deploy
   script:
-    - apk add --no-cache brotli
     - echo "The site will be deployed to $CI_PAGES_URL"
-    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec brotli -f -k {} \;
+    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
   artifacts:
     paths:
       - public
