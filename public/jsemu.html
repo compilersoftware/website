@@ -2,18 +2,18 @@
 <html>
 <head>
     <title>Compiler Software - Online emulator</title>
-    <script src="/jsspeccy/jdataview.js"></script>
-    <script src="/jsspeccy/jsspeccy-core.min.js"></script>
+    <script src="/st/jsspeccy/jdataview.js"></script>
+    <script src="/st/jsspeccy/jsspeccy-core.min.js"></script>
 </head>
 <body onunload="var emu = document.getElementById('speccy'); document.body.removeChild(emu);">
 <div id="speccy"></div>
 <script>
     function go(game, title) {
-        var jsspeccy = JSSpeccy('speccy', {
+        const jsspeccy = JSSpeccy('speccy', {
             'autostart': true,
             'autoload': true,
             'scaleFactor': 2,
-            'loadFile': 'files/games/' + game
+            'loadFile': '/st/files/games/' + game
         });
     }
     const params = new Proxy(new URLSearchParams(window.location.search), {
