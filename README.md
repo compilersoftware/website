@@ -1,6 +1,6 @@
 # Compiler Software Website
 
-https://compiler.speccy.org/
+https://compilersoft.es/
 
 ## Inspiration
 
