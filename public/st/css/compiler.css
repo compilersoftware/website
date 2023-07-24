@@ -93,6 +93,9 @@ footer a:hover {
   font-size: 80%;
   color: #666;
 }
+.img-responsive {
+  width: 100%;
+}
 /* Fix for fixed navbar */
 .anchor {
   padding-top: 40px;
