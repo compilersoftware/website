@@ -8,9 +8,6 @@ body .main {
   background-position: bottom center;
   background-repeat: no-repeat;
 }
-body .bg-main-title {
-  background-position: top center;
-}
 body.bg-abotw2 .main {
   background-image: url("img/bg/abotw2.jpg");
 }
@@ -69,9 +66,6 @@ footer a:hover {
 }
 .main {
   min-height: 30em;
-}
-.compiler {
-  padding: 2em 0;
 }
 .page-title {
   font-family: 'Audiowide', cursive;
