@@ -4,6 +4,9 @@ body {
   font-weight: 300;
   font-size: 1.7em;
 }
+body .strike {
+  text-decoration: line-through;
+}
 body .main {
   background-position: bottom center;
   background-repeat: no-repeat;
