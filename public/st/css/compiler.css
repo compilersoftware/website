@@ -74,6 +74,9 @@ footer a:hover {
   font-family: 'Audiowide', cursive;
   font-size: 270%;
 }
+.page-title .release-year {
+  font-size: 50%;
+}
 .section-heading {
   padding-bottom: 0.2em;
   margin-bottom: 0.5em;
